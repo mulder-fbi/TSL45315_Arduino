@@ -32,7 +32,7 @@ void TSL45315::begin(PowerMode mode, IntMode integration)
     Wire.write(CMD | CONFIG_REGISTER);
 
     // Set integration time and multiplyer
-    Wire.write(static_cast<uint8_t>(integration));
+    Wire.write(static_cast<uint8_t>(m_intMode));
 
     // Stop I2C transmission
     Wire.endTransmission();

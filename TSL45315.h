@@ -3,15 +3,15 @@
 enum PowerMode
 {
     POWER_DOWN = 0x00,
-    SINGLE_CYCLE = 0x10,
-    NORMAL_OPERATION  = 0x11
+    SINGLE_CYCLE = 0x02,
+    NORMAL_OPERATION  = 0x03
 };
 
 enum IntMode
 {
     INTEGRATION_400MS = 0x00,
     INTEGRATION_200MS = 0x01,
-    INTEGRATION_100MS = 0x10
+    INTEGRATION_100MS = 0x02
 };
 
 class TSL45315
