@@ -1,10 +1,10 @@
 Basic usage
 -----------
 
-Default device address for this library is ```0x39``` but can be changed in the ctor.
+Default device address for this library is ```0x29``` but can be changed in the ctor.
 
 ### Continuous operation
-This mode can be used if you want to read the ambient light value in a loop and don't have any power consumption limits. This is the default mode.
+This mode can be used if you want to read the ambient light value in a loop and don't have any power consumption concerns. This is the default mode.
 ```
 #include <TSL45315.h>
 TSL45315 tsl;
