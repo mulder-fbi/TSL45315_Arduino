@@ -57,10 +57,10 @@ uint32_t TSL45315::readLux()
         return lux;
 
         case INTEGRATION_200MS:
-        return lux * 2; // This is done according to the datasheet!
+        return lux * 2; // This is done in accordance with the datasheet
 
         case INTEGRATION_100MS:
-        return lux * 4; // This is done according to the datasheet!
+        return lux * 4; // This is done in accordance with the datasheet
     }
 }
 
